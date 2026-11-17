@@ -4,6 +4,7 @@ counter = 5
 
 while counter > 0:
     try:
+        index = int(input("Enter an index number (0-7): "))
         index = int(input("Enter an index number (0-6): "))
         fruit = fruits[index]
 
