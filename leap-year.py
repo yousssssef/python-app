@@ -1,10 +1,10 @@
-fruits = ["banana", "mango", "pear", "apple", "kiwi", "grape"]
+fruits = ["banana", "mango", "pear", "apple", "kiwi", "grape","Date"]
 
-counter = 3
+counter = 5
 
 while counter > 0:
     try:
-        index = int(input("Enter an index number (0-5): "))
+        index = int(input("Enter an index number (0-6): "))
         fruit = fruits[index]
 
     except ValueError:
